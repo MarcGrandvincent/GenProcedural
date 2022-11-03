@@ -1,0 +1,35 @@
+﻿<local:Ecran x:Class="TdGenProcedurale.Vue.Ecrans.Realisations.EcranGeneration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TdGenProcedurale.Vue.Ecrans"
+             xmlns:localE="clr-namespace:TdGenProcedurale.Vue.Ecrans.Elements"
+             mc:Ignorable="d" 
+             d:DesignHeight="900" d:DesignWidth="1600"
+             Background="Black">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="Black" Name="GridMap">
+            <Border BorderThickness="20" BorderBrush="Black">
+                <Grid Name="GridDeLaCarte"></Grid>
+            </Border>
+            
+        </Grid>
+        <Grid Grid.Column="1" Background="Black" Name="GridMenu">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Source="../../Ressources/Logo.png" Margin="10,10,20,10" Grid.Row="0"></Image>
+            <StackPanel Grid.Row="1" VerticalAlignment="Center">
+                <Image Source="../../Ressources/Saisir.png" Margin="0,10,20,10"></Image>
+                <TextBox Name="TextSeed"  Background="White" Foreground="Black" Margin="10,10,30,10" MinLines="2" FontSize="25" HorizontalContentAlignment="Center" TextWrapping="Wrap" MaxLength="50" MaxLines="2"></TextBox>
+                <localE:BoutonGenerer Margin="0,30,20,10" MouseDown="BoutonGenerer_MouseDown"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</local:Ecran>

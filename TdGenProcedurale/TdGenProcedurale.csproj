@@ -1,0 +1,80 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Vue\Ressources\EcranAcceuil.jpg" />
+    <None Remove="Vue\Ressources\Generer.png" />
+    <None Remove="Vue\Ressources\GenererHover.png" />
+    <None Remove="Vue\Ressources\Logo.png" />
+    <None Remove="Vue\Ressources\Saisir.png" />
+    <None Remove="Vue\Ressources\SalleBOSS.png" />
+    <None Remove="Vue\Ressources\SalleGrandCARRE.png" />
+    <None Remove="Vue\Ressources\SalleGrandHAUT.png" />
+    <None Remove="Vue\Ressources\SalleGrandL1.png" />
+    <None Remove="Vue\Ressources\SalleGrandL2.png" />
+    <None Remove="Vue\Ressources\SalleGrandL3.png" />
+    <None Remove="Vue\Ressources\SalleGrandL4.png" />
+    <None Remove="Vue\Ressources\SalleGrandLONG.png" />
+    <None Remove="Vue\Ressources\SalleITEM.png" />
+    <None Remove="Vue\Ressources\SalleNORMALE.png" />
+    <None Remove="Vue\Ressources\SalleSTART.png" />
+    <None Remove="Vue\Ressources\SalleVIDE.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Vue\Ressources\EcranAcceuil.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\Generer.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\GenererHover.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\Logo.png" />
+    <Resource Include="Vue\Ressources\Saisir.png" />
+    <Resource Include="Vue\Ressources\SalleBOSS.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandCARRE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandHAUT.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandL1.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandL2.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandL3.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandL4.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleGrandLONG.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleITEM.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleNORMALE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleSTART.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Vue\Ressources\SalleVIDE.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
